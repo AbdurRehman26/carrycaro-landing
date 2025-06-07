@@ -3,16 +3,16 @@
 @tailwind utilities;
 
 :root {
-  --ifm-color-primary: #7f68ee;
-  --ifm-color-primary-dark: #6549eb;
-  --ifm-color-primary-darker: #583ae9;
-  --ifm-color-primary-darkest: #3918d7;
-  --ifm-color-primary-light: #9987f1;
-  --ifm-color-primary-lighter: #a696f3;
-  --ifm-color-primary-lightest: #cdc4f8;
-  --ifm-toc-border-color: #f1f5f9;
+  --ifm-color-primary: #10b981;           /* Emerald */
+  --ifm-color-primary-dark: #0fa36b;      /* Darker emerald */
+  --ifm-color-primary-darker: #0d8b5a;    /* Even darker emerald */
+  --ifm-color-primary-darkest: #0a6844;   /* Darkest emerald */
+  --ifm-color-primary-light: #34d399;     /* Lighter emerald */
+  --ifm-color-primary-lighter: #6ee7b7;   /* Even lighter emerald */
+  --ifm-color-primary-lightest: #d1fae5;  /* Lightest emerald */
+  --ifm-toc-border-color: #D3D3D3;        /* Light neutral for contrast */
 
-  --background: 0 0% 100%;
+  --background: 0 0% 96%;
   --foreground: 240 10% 3.9%;
   --card: 0 0% 100%;
   --card-foreground: 240 10% 3.9%;
@@ -28,7 +28,7 @@
   --accent-foreground: 240 5.9% 10%;
   --destructive: 0 84.2% 60.2%;
   --destructive-foreground: 0 0% 98%;
-  --border: 240 5.9% 90%;
+  --border: 0 0% 93%;
   --input: 240 5.9% 90%;
   --ring: 240 5.9% 10%;
   --radius: 0.75rem;
@@ -40,13 +40,13 @@
 }
 
 [data-theme='dark'] {
-  --ifm-color-primary: #7f68ee;
-  --ifm-color-primary-dark: #6549eb;
-  --ifm-color-primary-darker: #583ae9;
-  --ifm-color-primary-darkest: #3918d7;
-  --ifm-color-primary-light: #9987f1;
-  --ifm-color-primary-lighter: #a696f3;
-  --ifm-color-primary-lightest: #cdc4f8;
+  --ifm-color-primary: #10b981;           /* Emerald */
+  --ifm-color-primary-dark: #0fa36b;      /* Darker emerald */
+  --ifm-color-primary-darker: #0d8b5a;    /* Even darker emerald */
+  --ifm-color-primary-darkest: #0a6844;   /* Darkest emerald */
+  --ifm-color-primary-light: #34d399;     /* Lighter emerald */
+  --ifm-color-primary-lighter: #6ee7b7;   /* Even lighter emerald */
+  --ifm-color-primary-lightest: #d1fae5;  /* Lightest emerald */
   --ifm-toc-border-color: #1e293b !important;
   --ifm-background-surface-color: #060911 !important;
 
@@ -56,7 +56,7 @@
   --card-foreground: 0 0% 98%;
   --popover: 240 10% 3.9%;
   --popover-foreground: 0 0% 98%;
-  --primary: 0 0% 98%;
+  --primary: 240 100% 98%;
   --primary-foreground: 240 5.9% 10%;
   --secondary: 240 3.7% 15.9%;
   --secondary-foreground: 0 0% 98%;
@@ -201,4 +201,9 @@ article h2 a {
 
 .image-light {
   @apply block dark:hidden;
+}
+
+.navbar__logo img {
+  height: 160%;
+  margin-top: -10px;
 }

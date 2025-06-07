@@ -1,5 +1,3 @@
-import colors from 'tailwindcss/colors';
-
 /** @type {import('tailwindcss').Config} */
 module.exports = {
 	corePlugins: { preflight: false, container: false },
@@ -7,13 +5,7 @@ module.exports = {
 	content: [
 		'./src/**/*.html', 
 		'./src/**/*.ts', 
-		'./src/**/*.tsx', 
-		'./versioned_docs/**/*.mdx', 
-		'./versioned_docs/**/*.md', 
-		'./blog/**/*.md', 
-		'./blog/**/*.mdx',
-		'./docs/**/*.mdx',
-		'./docs/**/*.md',
+		'./src/**/*.tsx'
 	],
 	theme: {
     	extend: {

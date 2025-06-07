@@ -5,8 +5,8 @@ import type * as Preset from '@docusaurus/preset-classic';
 // This runs in Node.js - Don't use client-side code here (browser APIs, JSX...)
 
 const config: Config = {
-  title: 'VitoDeploy',
-  tagline: 'The Ultimate Server Management Tool',
+  title: 'SathLaao',
+  tagline: 'SathLaao',
   favicon: 'img/favicon.ico',
 
   // Set the production url of your site here
@@ -17,8 +17,8 @@ const config: Config = {
 
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
-  organizationName: 'vitodeploy', // Usually your GitHub org/user name.
-  projectName: 'vito', // Usually your repo name.
+  organizationName: 'sathlaao', // Usually your GitHub org/user name.
+  projectName: 'sathlaao', // Usually your repo name.
 
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
@@ -39,14 +39,6 @@ const config: Config = {
           includeCurrentVersion: true,
         },
         blog: {
-          showReadingTime: true,
-          feedOptions: {
-            type: ['rss', 'atom'],
-            xslt: true,
-          },
-          onInlineTags: 'warn',
-          onInlineAuthors: 'warn',
-          onUntruncatedBlogPosts: 'warn',
         },
         theme: {
           customCss: './src/css/custom.css',
@@ -61,7 +53,7 @@ const config: Config = {
       title: 'SathLaao',
       logo: {
         alt: 'SathLaao Logo',
-        src: 'img/logo.svg',
+        src: 'img/logo.png',
       },
       items: [],
     },

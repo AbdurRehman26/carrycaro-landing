@@ -8,7 +8,7 @@
 
 ## Introduction
 
-VitoDeploy enables you to monitor your servers' resource usages like CPU Load, Memory, and Disk usage.
+CarryCaro enables you to monitor your servers' resource usages like CPU Load, Memory, and Disk usage.
 
 Vito offers 2 ways of monitoring servers.
 

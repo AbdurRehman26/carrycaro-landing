@@ -6,7 +6,7 @@ import { ReactNode } from "react";
 export default function Header(): ReactNode {
     return (
         <header className='container relative flex flex-col items-center justify-center'>
-            <h1 className='font-bold text-[60px] text-emerald-600 dark:text-white mb-2'>SathLaao</h1>
+            <h1 className='font-bold text-[60px] text-emerald-600 dark:text-white mb-2'>CarryCaro</h1>
             <WordRotate
                 className='text-3xl font-semibold mb-0'
                 words={["Free", "Reliable", "Secure", "Easy to Use"]}

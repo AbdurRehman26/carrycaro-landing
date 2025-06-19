@@ -5,8 +5,8 @@ import type * as Preset from '@docusaurus/preset-classic';
 // This runs in Node.js - Don't use client-side code here (browser APIs, JSX...)
 
 const config: Config = {
-  title: 'SathLaao',
-  tagline: 'SathLaao',
+  title: 'CarryCaro',
+  tagline: 'CarryCaro',
   favicon: 'img/favicon.ico',
 
   // Set the production url of your site here
@@ -17,8 +17,8 @@ const config: Config = {
 
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
-  organizationName: 'sathlaao', // Usually your GitHub org/user name.
-  projectName: 'sathlaao', // Usually your repo name.
+  organizationName: 'CarryCaro', // Usually your GitHub org/user name.
+  projectName: 'CarryCaro', // Usually your repo name.
 
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
@@ -50,9 +50,9 @@ const config: Config = {
   themeConfig: {
     image: 'img/social-card.jpg',
     navbar: {
-      title: 'SathLaao',
+      title: 'CarryCaro',
       logo: {
-        alt: 'SathLaao Logo',
+        alt: 'CarryCaro Logo',
         src: 'img/logo.png',
       },
       items: [],
@@ -60,7 +60,7 @@ const config: Config = {
     footer: {
       style: 'dark',
       links: [],
-      copyright: `Copyright © ${new Date().getFullYear()} Sathlaao.`,
+      copyright: `Copyright © ${new Date().getFullYear()} CarryCaro.`,
     },
     prism: {
       theme: prismThemes.github,

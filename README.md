@@ -1,3 +1,0 @@
-# VitoDeploy
-
-https://vitodeploy.com

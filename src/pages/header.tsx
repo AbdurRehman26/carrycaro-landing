@@ -31,7 +31,7 @@ export default function Header(): ReactNode {
             </div>
             <div className="flex items-center mt-10 gap-2">
                 <Button  size="lg" variant="default"
-                        onClick={() => window.open("https://demo.vitodeploy.com", "_blank")}>
+                        onClick={() => window.open("https://app.carrycaro.com", "_blank")}>
                     Go to Login
                 </Button>
             </div>

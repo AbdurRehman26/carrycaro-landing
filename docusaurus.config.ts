@@ -8,17 +8,17 @@ const config: Config = {
   title: 'CarryCaro',
   tagline: 'CarryCaro',
   favicon: 'img/favicon.ico',
-
+  deploymentBranch: 'master',
   // Set the production url of your site here
-  url: 'https://vitodeploy.com',
+  url: 'https://app.carrycaro.com',
   // Set the /<baseUrl>/ pathname under which your site is served
   // For GitHub pages deployment, it is often '/<projectName>/'
   baseUrl: '/',
 
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
-  organizationName: 'CarryCaro', // Usually your GitHub org/user name.
-  projectName: 'CarryCaro', // Usually your repo name.
+  organizationName: 'AbdurRehman26', // Usually your GitHub org/user name.
+  projectName: 'carrycaro-landing', // Usually your repo name.
 
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
@@ -60,7 +60,7 @@ const config: Config = {
     footer: {
       style: 'dark',
       links: [],
-      copyright: `Copyright © ${new Date().getFullYear()} CarryCaro.`,
+      copyright: `Copyright ©️ ${new Date().getFullYear()} CarryCaro.`,
     },
     prism: {
       theme: prismThemes.github,

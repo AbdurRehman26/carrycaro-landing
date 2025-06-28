@@ -55,7 +55,23 @@ const config: Config = {
         alt: 'CarryCaro Logo',
         src: 'img/logo.png',
       },
-      items: [],
+      items: [
+        {
+          href: 'https://www.facebook.com/groups/1258084189005838',
+          position: 'right',
+          className: 'header-fb-link',
+        },
+        {
+          href: 'https://youtube.com/@carrycaro-app',
+          position: 'right',
+          className: 'header-youtube-link',
+        },
+        {
+          href: 'https://x.com/carrycaro',
+          position: 'right',
+          className: 'header-x-link',
+        },
+      ],
     },
     footer: {
       style: 'dark',

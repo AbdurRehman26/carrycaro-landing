@@ -32,7 +32,7 @@ export default function Features(): ReactNode {
     return (
         <div className="py-10">
             <h2 className="text-4xl text-center">Features</h2>
-            <p className="text-lg text-center text-gray-700 dark:text-gray-400">Explore some of CarryCaro's features</p>
+            <p className="text-lg text-center text-gray-700 dark:text-gray-400">Explore some of Carrycaro's features</p>
             <div className="grid grid-cols-1 sm:grid-cols-3 md:grid-cols-3 lg:grid-cols-3 gap-6 mt-10">
                 <FeatureCard
                     title="Travel Info"

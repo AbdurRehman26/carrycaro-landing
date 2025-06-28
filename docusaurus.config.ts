@@ -5,8 +5,8 @@ import type * as Preset from '@docusaurus/preset-classic';
 // This runs in Node.js - Don't use client-side code here (browser APIs, JSX...)
 
 const config: Config = {
-  title: 'CarryCaro',
-  tagline: 'CarryCaro',
+  title: 'Carrycaro',
+  tagline: 'Carrycaro',
   favicon: 'img/favicon.ico',
   deploymentBranch: 'master',
   // Set the production url of your site here
@@ -50,9 +50,9 @@ const config: Config = {
   themeConfig: {
     image: 'img/social-card.jpg',
     navbar: {
-      title: 'CarryCaro',
+      title: 'Carrycaro',
       logo: {
-        alt: 'CarryCaro Logo',
+        alt: 'Carrycaro Logo',
         src: 'img/logo.png',
       },
       items: [
@@ -76,7 +76,7 @@ const config: Config = {
     footer: {
       style: 'dark',
       links: [],
-      copyright: `Copyright ©️ ${new Date().getFullYear()} CarryCaro.`,
+      copyright: `Copyright ©️ ${new Date().getFullYear()} Carrycaro.`,
     },
     prism: {
       theme: prismThemes.github,

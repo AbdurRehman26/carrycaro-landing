@@ -8,7 +8,7 @@
 
 ## Introduction
 
-CarryCaro enables you to monitor your servers' resource usages like CPU Load, Memory, and Disk usage.
+Carrycaro enables you to monitor your servers' resource usages like CPU Load, Memory, and Disk usage.
 
 Vito offers 2 ways of monitoring servers.
 
